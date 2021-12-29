@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 .topLeft img {
-    max-width: 100%;
+    width: 600px;
     height: 500px;
     float: left;
     border: solid 10px #bbb;
@@ -137,23 +137,24 @@ nav a:hover {
 
 
 /*The image and paragraph on the middle*/
-.middleRight {
+.middle {
     display: flex;
     align-items: center;
 }
 
-.middleRight img {
-    max-width: 60%;
+.middle img {
+    width: 600px;
     height: 500px;
-    float: right;
+    float: left;
     border: solid 10px #bbb;
     margin-top: 25px;
-    margin-right: 0px;
+    margin-left: 20px;
     vertical-align: middle;
     margin-bottom: 50px;
 }
 
-.middleRight span {
+.middle span {
+    float: right;
     margin-right: 3%;
     margin-left: 20px;
     overflow: hidden;
@@ -169,7 +170,7 @@ nav a:hover {
 }
 
 .bottomLeft img {
-    max-width: 60%;
+    width: 600px;
     height: 500px;
     float: left;
     border: solid 10px #bbb;
@@ -182,6 +183,31 @@ nav a:hover {
 
 .bottomLeft span {
     margin-left: 3%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif, "Bubble Sans", Arial, Helvetica, sans-serif;
+    line-height: 31px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.bottom img {
+    width: 600px;
+    height: 500px;
+    float: left;
+    border: solid 10px #bbb;
+    margin-top: 25px;
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+.bottom span {
+    margin-right: 3%;
+    margin-left: 20px;
     overflow: hidden;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif, "Bubble Sans", Arial, Helvetica, sans-serif;
